@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 import {
   MatButtonModule,
   MatButtonToggleModule,
-  MatCardModule,
   MatDialogModule,
   MatFormFieldModule,
   MatIconModule,
@@ -26,7 +25,6 @@ import { WTimeDialogComponent } from './w-time-dialog/w-time-dialog.component';
     WTimeComponent,
   ],
   imports: [
-    MatCardModule,
     MatButtonModule,
     MatButtonToggleModule,
     MatDialogModule,
