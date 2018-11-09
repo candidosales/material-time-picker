@@ -10,7 +10,7 @@
       "prefix": "d",
       "schematics": {
         "@schematics/angular:component": {
-          "styleext": "sass"
+          "styleext": "scss"
         }
       },
       "architect": {
@@ -27,7 +27,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -127,6 +127,41 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": "e2e/tsconfig.e2e.json",
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "material-time-picker": {
+      "root": "projects/material-time-picker",
+      "sourceRoot": "projects/material-time-picker/src",
+      "projectType": "library",
+      "prefix": "material",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/material-time-picker/tsconfig.lib.json",
+            "project": "projects/material-time-picker/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/material-time-picker/src/test.ts",
+            "tsConfig": "projects/material-time-picker/tsconfig.spec.json",
+            "karmaConfig": "projects/material-time-picker/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/material-time-picker/tsconfig.lib.json",
+              "projects/material-time-picker/tsconfig.spec.json"
+            ],
             "exclude": [
               "**/node_modules/**"
             ]

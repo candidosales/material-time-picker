@@ -16,6 +16,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "material-time-picker": [
+        "dist/material-time-picker"
+      ],
+      "material-time-picker/*": [
+        "dist/material-time-picker/*"
+      ]
+    }
   }
 }
