@@ -1,22 +1,21 @@
-# Material Time Control
+# Material Time Picker
 
 A simple time picker component using Angular Material.
 
 ### Compatibility
 
-- Angular 7;
-- Material 7;
-
+- Angular 7
+- Material 7
 
 ## Installation
 
-```
-npm install --save angular-input-masks
+```bash
+npm i @candidosales/material-time-picker
 ```
 
 ## Quickstart
 
-Import **ngx-mask** module in Angular app.
+Import **material-time-picker** module in Angular app.
 
 ```typescript
 import { MaterialTimePickerModule } from 'material-time-picker';

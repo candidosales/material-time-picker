@@ -1,6 +1,6 @@
 {
-  "name": "material-time-picker",
-  "version": "1.0.0",
+  "name": "@candidosales/material-time-picker",
+  "version": "1.0.1",
   "description": "Time Picker for Angular",
   "author": {
     "email": "candidosg@gmail.com",
@@ -27,5 +27,13 @@
   "engines": {
     "node": ">=10.9.0 <11.0.0",
     "yarn": ">=1.9.0 <2.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/candidosales/material-time-picker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/candidosales/material-time-picker/issues"
+  },
+  "homepage": "https://github.com/candidosales/material-time-picker"
 }
