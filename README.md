@@ -18,7 +18,7 @@ npm i @candidosales/material-time-picker
 Import **material-time-picker** module in Angular app.
 
 ```typescript
-import { MaterialTimePickerModule } from 'material-time-picker';
+import { MaterialTimePickerModule } from '@candidosales/material-time-picker';
 
 (...)
 
