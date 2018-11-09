@@ -50,7 +50,7 @@ export class AppComponent {
 ```
 
 ```html
-<w-mat-timepicker color="primary" label="Hour 2" appearance="standard" [(userTime)]="exportTime"></w-mat-timepicker>
+<material-timepicker color="primary" label="Hour 2" appearance="standard" [(userTime)]="exportTime"></material-timepicker>
 ```
 
 ## Examples
