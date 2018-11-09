@@ -54,7 +54,7 @@ export class AppComponent {
 
 ## Examples
 
-Check the [demo](https://jsdaddy.github.io/ngx-mask/).
+Check the [demo](https://stackblitz.com/edit/material-time-picker).
 
 ## Acknowledgments
 
