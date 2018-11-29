@@ -1,6 +1,6 @@
 {
   "name": "@candidosales/material-time-picker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Time Picker for Angular",
   "author": {
     "email": "candidosg@gmail.com",
@@ -13,16 +13,16 @@
     "time picker"
   ],
   "peerDependencies": {
-    "@angular/animations": "^7.0.3",
-    "@angular/cdk": "^7.0.3",
-    "@angular/common": "^7.0.3",
-    "@angular/compiler": "^7.0.3",
-    "@angular/core": "^7.0.3",
+    "@angular/animations": "^7.1.1",
+    "@angular/cdk": "^7.1.0",
+    "@angular/common": "^7.1.1",
+    "@angular/compiler": "^7.1.1",
+    "@angular/core": "^7.1.1",
     "@angular/flex-layout": "^7.0.0-beta.19",
-    "@angular/forms": "^7.0.3",
-    "@angular/material": "^7.0.3",
-    "@angular/platform-browser": "^7.0.3",
-    "@angular/platform-browser-dynamic": "^7.0.3"
+    "@angular/forms": "^7.1.1",
+    "@angular/material": "^7.1.0",
+    "@angular/platform-browser": "^7.1.1",
+    "@angular/platform-browser-dynamic": "^7.1.1"
   },
   "engines": {
     "node": ">=10.9.0 <11.0.0",
