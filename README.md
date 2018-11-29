@@ -45,11 +45,14 @@ export class AppComponent {
   title = 'demo';
   private exportTime = { hour: 7, minute: 15, meriden: 'PM', format: 24 };
 
+  onChangeHour(event) {
+    console.log('event', event);
+  }
 }
 ```
 
 ```html
-<material-timepicker color="primary" label="Hour 2" appearance="standard" [(userTime)]="exportTime" (userTimeChange)="onChange($event)"></material-timepicker>
+<material-timepicker color="primary" label="Hour 2" appearance="standard" [userTime]="exportTime" (change)="onChangeHour($event)" revertLabel="Remove" submitLabel="Ok"></material-timepicker>
 ```
 
 ## Examples
