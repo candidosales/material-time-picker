@@ -49,7 +49,7 @@ export class AppComponent {
 ```
 
 ```html
-<material-timepicker color="primary" label="Hour 2" appearance="standard" [(userTime)]="exportTime"></material-timepicker>
+<material-timepicker color="primary" label="Hour 2" appearance="standard" [(userTime)]="exportTime" (userTimeChange)="onChange($event)"></material-timepicker>
 ```
 
 ## Examples
