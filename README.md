@@ -63,3 +63,7 @@ Check the [demo](https://stackblitz.com/edit/material-time-picker).
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+
+## Reference
+https://medium.com/@tomsu/how-to-build-a-library-for-angular-apps-4f9b38b0ed11

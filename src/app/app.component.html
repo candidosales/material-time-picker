@@ -1,26 +1,26 @@
 <div class="container">
   <form class="demo-form">
-    <material-timepicker color="primary" label="Hour" [(userTime)]="exportTime"></material-timepicker>
-    <material-timepicker color="primary" label="Hour 2" appearance="standard" [(userTime)]="exportTime"></material-timepicker>
-    <material-timepicker color="primary" label="Hour 3" appearance="fill" [(userTime)]="exportTime"></material-timepicker>
-    <material-timepicker color="primary" label="Hour 4" appearance="outline" [(userTime)]="exportTime"></material-timepicker>
+    <material-timepicker color="primary" label="Hour" [userTime]="exportTime" (change)="onChangeHour($event)" revertLabel="Remove" submitLabel="Ok"></material-timepicker>
+    <material-timepicker color="primary" label="Hour 2" appearance="standard" [userTime]="exportTime"></material-timepicker>
+    <material-timepicker color="primary" label="Hour 3" appearance="fill" [userTime]="exportTime"></material-timepicker>
+    <material-timepicker color="primary" label="Hour 4" appearance="outline" [userTime]="exportTime"></material-timepicker>
   </form>
 </div>
 
 <mat-card>
   <mat-card-content>
-      <w-time color="primary" [(userTime)]="exportTime"></w-time>
+      <w-time color="primary" [userTime]="exportTime"></w-time>
   </mat-card-content>
 </mat-card>
 
 <mat-card>
   <mat-card-content>
-      <w-time color="accent" [(userTime)]="exportTime" revertLabel="Revert" submitLabel="Submit"></w-time>
+      <w-time color="accent" [userTime]="exportTime" revertLabel="Revert" submitLabel="Submit"></w-time>
   </mat-card-content>
 </mat-card>
 
 <mat-card>
   <mat-card-content>
-      <w-time color="warn" [(userTime)]="exportTime"></w-time>
+      <w-time color="warn" [userTime]="exportTime"></w-time>
   </mat-card-content>
 </mat-card>

@@ -15,8 +15,8 @@ export enum CLOCK_TYPE {
 export type TimeFormat = 12 | 24;
 
 export interface ITime {
-  hour: number;
-  minute: number;
+  hour: any;
+  minute: any;
   meriden: 'PM' | 'AM';
   format: TimeFormat;
 }

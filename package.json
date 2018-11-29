@@ -11,9 +11,10 @@
     "build": "ng build",
     "test": "ng test",
     "lib:build": "ng build material-time-picker",
-    "lib:build:prod": "ng build material-time-picker --prod",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "lib:publish": "cd dist/material-time-picker && npm publish",
+    "lib:publishNpm" : "lib:build && lib:publish"
   },
   "private": true,
   "dependencies": {

@@ -1,5 +1,5 @@
 import { CLOCK_TYPE, ITime } from '../w-clock/w-clock.component';
-import { Component, Inject, Input } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 import { MAT_DIALOG_DATA } from '@angular/material';
 import { MatDialogRef } from '@angular/material';
 

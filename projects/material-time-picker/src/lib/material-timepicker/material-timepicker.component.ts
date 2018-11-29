@@ -1,8 +1,15 @@
-import { Component, Input, Output, EventEmitter, OnInit } from '@angular/core';
-import { MatDialog } from '@angular/material';
-
-import { WTimeDialogComponent } from '../w-time-dialog/w-time-dialog.component';
+import {
+  Component,
+  EventEmitter,
+  Input,
+  OnInit,
+  Output
+  } from '@angular/core';
 import { ITime } from '../w-clock/w-clock.component';
+import { MatDialog } from '@angular/material';
+import { WTimeDialogComponent } from '../w-time-dialog/w-time-dialog.component';
+import { Utils } from '../utils';
+
 
 @Component({
   selector: 'material-timepicker',
@@ -13,9 +20,13 @@ export class MaterialTimePickerComponent implements OnInit {
   @Input() label = 'Hour';
   @Input() appearance = 'legacy';
   @Input() userTime: ITime;
-  @Output() userTimeChange: EventEmitter<ITime> = new EventEmitter();
-
   @Input() color: string;
+  @Input() revertLabel: string;
+  @Input() submitLabel: string;
+
+  @Output() change: EventEmitter<ITime> = new EventEmitter<ITime>();
+
+
 
   constructor(private dialog: MatDialog) {}
 
@@ -64,7 +75,9 @@ export class MaterialTimePickerComponent implements OnInit {
           meriden: this.userTime.meriden,
           format: this.userTime.format
         },
-        color: this.color
+        color: this.color,
+        revertLabel: this.revertLabel,
+        submitLabel: this.submitLabel
       }
     });
 
@@ -74,13 +87,23 @@ export class MaterialTimePickerComponent implements OnInit {
         return;
       } else if (result !== -1) {
         this.userTime = result;
-        this.emituserTimeChange();
+
+        const hour = result.hour;
+        const minute = result.minute;
+
+        const dataEvent = {
+          hour: Utils.formatHour(result.format, hour),
+          minute: Utils.formatMinute(minute),
+          meriden: this.userTime.meriden,
+          format: this.userTime.format
+        };
+        this.emitChange(dataEvent);
       }
     });
     return false;
   }
 
-  private emituserTimeChange() {
-    this.userTimeChange.emit(this.userTime);
+  private emitChange(data) {
+    this.change.emit(data);
   }
 }
