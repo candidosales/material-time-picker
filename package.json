@@ -1,6 +1,6 @@
 {
   "name": "material-time-picker",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "author": {
     "email": "candidosg@gmail.com",
     "name": "Cândido Sales Gomes"
@@ -14,7 +14,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "lib:publish": "cd dist/material-time-picker && npm publish",
-    "lib:publishNpm" : "lib:build && lib:publish"
+    "lib:publishNpm": "lib:build && lib:publish"
   },
   "private": true,
   "dependencies": {
@@ -34,8 +34,6 @@
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.10.0",
-    "@angular-devkit/build-ng-packagr": "~0.10.0",
     "@angular/cli": "~7.1.0",
     "@angular/compiler-cli": "~7.1.1",
     "@angular/language-service": "~7.1.1",
