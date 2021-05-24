@@ -2,7 +2,7 @@
 
 A simple time picker component using Angular Material.
 
-### Compatibility
+## Compatibility
 
 - Angular 8
 - Material 8
@@ -31,7 +31,7 @@ import { MaterialTimePickerModule } from '@candidosales/material-time-picker';
 })
 ```
 
-#### Usage
+### Usage
 
 ```typescript
 import { Component } from '@angular/core';
@@ -67,7 +67,13 @@ Check the [demo](https://stackblitz.com/edit/material-time-picker).
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-
 ## Reference
 
 https://medium.com/@tomsu/how-to-build-a-library-for-angular-apps-4f9b38b0ed11
+
+## Test Locally
+
+```bash
+npm run lib:build
+npm run start
+```
