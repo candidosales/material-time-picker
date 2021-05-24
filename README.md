@@ -4,8 +4,8 @@ A simple time picker component using Angular Material.
 
 ### Compatibility
 
-- Angular 7
-- Material 7
+- Angular 8
+- Material 8
 
 ## Installation
 
@@ -52,7 +52,7 @@ export class AppComponent {
 ```
 
 ```html
-<material-timepicker color="primary" label="Hour 2" appearance="standard" [userTime]="exportTime" (change)="onChangeHour($event)" revertLabel="Remove" submitLabel="Ok"></material-timepicker>
+<material-timepicker color="primary" label="Hour 2" appearance="standard" [userTime]="exportTime" (change)="onChangeHour($event)" revertLabel="Remove" submitLabel="Ok" [disabled]="disabled" [readonly]="readonly"></material-timepicker>
 ```
 
 ## Examples
@@ -69,4 +69,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 ## Reference
+
 https://medium.com/@tomsu/how-to-build-a-library-for-angular-apps-4f9b38b0ed11

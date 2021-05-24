@@ -7,8 +7,8 @@ import {
   } from '@angular/core';
 import { ITime } from '../w-clock/w-clock.component';
 import { MatDialog } from '@angular/material/dialog';
-import { WTimeDialogComponent } from '../w-time-dialog/w-time-dialog.component';
 import { Utils } from '../utils';
+import { WTimeDialogComponent } from '../w-time-dialog/w-time-dialog.component';
 
 
 @Component({
