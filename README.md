@@ -4,8 +4,8 @@ A simple time picker component using Angular Material.
 
 ## Compatibility
 
-- Angular 8
-- Material 8
+- Angular 9
+- Material 9
 
 ## Installation
 
