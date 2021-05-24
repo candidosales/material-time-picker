@@ -4,5 +4,5 @@
 
 ### Added
 
-- Upgrade to Angular 12;
+- Upgrade to Angular 9 (core, cli, cdk, material);
 - Upgrade other libraries;
