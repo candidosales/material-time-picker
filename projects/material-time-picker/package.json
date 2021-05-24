@@ -35,5 +35,8 @@
   "bugs": {
     "url": "https://github.com/candidosales/material-time-picker/issues"
   },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
   "homepage": "https://github.com/candidosales/material-time-picker"
 }
