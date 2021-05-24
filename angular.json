@@ -10,13 +10,14 @@
       "prefix": "d",
       "schematics": {
         "@schematics/angular:component": {
-          "styleext": "scss"
+          "style": "scss"
         }
       },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "aot": true,
             "outputPath": "dist/demo",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -53,6 +54,10 @@
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
                 }
               ]
             }
@@ -145,6 +150,11 @@
           "options": {
             "tsConfig": "projects/material-time-picker/tsconfig.lib.json",
             "project": "projects/material-time-picker/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/material-time-picker/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -170,5 +180,8 @@
       }
     }
   },
-  "defaultProject": "demo"
+  "defaultProject": "demo",
+  "cli": {
+    "analytics": "8793fad4-bb97-469a-9c18-88196c4d8b87"
+  }
 }

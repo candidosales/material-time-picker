@@ -4,9 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { MaterialTimePickerModule } from 'material-time-picker';
 import { NgModule } from '@angular/core';
 
-import {
-  MatCardModule,
-} from '@angular/material';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [

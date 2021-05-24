@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'demo';
-  private exportTime = { hour: 7, minute: 0, meriden: 'PM', format: 24 };
+  exportTime = { hour: 7, minute: 0, meriden: 'PM', format: 24 };
 
   onChangeHour(event) {
     console.log('event', event);
