@@ -1,7 +1,7 @@
 import { CLOCK_TYPE, ITime } from '../w-clock/w-clock.component';
 import { Component, Inject } from '@angular/core';
-import { MAT_DIALOG_DATA } from '@angular/material';
-import { MatDialogRef } from '@angular/material';
+import { MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { MatDialogRef } from '@angular/material/dialog';
 
 @Component({
   styleUrls: ['./w-time-dialog.component.scss'],
