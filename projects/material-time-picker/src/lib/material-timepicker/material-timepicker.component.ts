@@ -23,6 +23,8 @@ export class MaterialTimePickerComponent implements OnInit {
   @Input() color: string;
   @Input() revertLabel: string;
   @Input() submitLabel: string;
+  @Input() disabled: boolean;
+  @Input() readonly: boolean;
 
   @Output() change: EventEmitter<ITime> = new EventEmitter<ITime>();
 
