@@ -1,6 +1,6 @@
 {
   "name": "material-time-picker",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "author": {
     "email": "candidosg@gmail.com",
     "name": "Cândido Sales Gomes"
@@ -10,7 +10,7 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
-    "lib:build": "ng build material-time-picker",
+    "lib:build": "ng build material-time-picker --prod",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "lib:publish": "cd dist/material-time-picker && npm publish",
