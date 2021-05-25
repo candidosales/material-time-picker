@@ -1,8 +1,15 @@
 # Changelog
 
+## [2.3.0] - 2021-05-24
+
+### Changed
+
+- Upgrade to Angular 11 (core, cli, cdk, material);
+- Upgrade other libraries;
+
 ## [2.2.0] - 2021-05-24
 
-### Added
+### Changed
 
 - Upgrade to Angular 10 (core, cli, cdk, material);
 - Upgrade other libraries;
