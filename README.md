@@ -79,11 +79,11 @@ If you want to say thank you and/or support the active development this project:
 
 ## ☕ Supporters
 
-If you want to support Personal Portfolio, you can ☕ [**buy a coffee here**](https://buymeacoff.ee/candidosales)
+If you want to support Material Time Picker, you can ☕ [**buy a coffee here**](https://buymeacoff.ee/candidosales)
 
 ## ✨ Acknowledgment
 
-* <a href="https://github.com/SteveDunlap13/MaterialTimeControl">SteveDunlap13/MaterialTimeControl</a>
+- [SteveDunlap13/MaterialTimeControl](https://github.com/SteveDunlap13/MaterialTimeControl)
 
 ## Author
 
