@@ -15,7 +15,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "lib:publish": "cd dist/material-time-picker && npm publish",
-    "lib:publishNpm": "lib:build && lib:publish"
+    "lib:publishNpm": "npm run lib:build:prod && npm run lib:publish"
   },
   "private": true,
   "dependencies": {
