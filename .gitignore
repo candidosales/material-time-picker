@@ -7,6 +7,7 @@
 
 # dependencies
 /node_modules
+/projects/material-time-picker/node_modules
 
 # IDEs and editors
 /.idea
@@ -25,6 +26,8 @@
 !.vscode/extensions.json
 
 # misc
+/.angular
+/.angular/cache
 /.sass-cache
 /connect.lock
 /coverage

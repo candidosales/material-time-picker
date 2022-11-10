@@ -16,36 +16,30 @@ import { WTimeComponent } from './w-time/w-time.component';
 import { WTimeDialogComponent } from './w-time-dialog/w-time-dialog.component';
 
 @NgModule({
-  declarations: [
-    MaterialTimePickerComponent,
-    WTimeDialogComponent,
-    WClockComponent,
-    WTimeComponent,
-  ],
-  imports: [
-    MatButtonModule,
-    MatButtonToggleModule,
-    MatDialogModule,
-    MatFormFieldModule,
-    MatIconModule,
-    MatInputModule,
-    MatSelectModule,
-    MatToolbarModule,
-    CommonModule,
-    FormsModule,
-    FlexLayoutModule,
-  ],
-  exports: [
-    MaterialTimePickerComponent,
-    WTimeDialogComponent,
-    WClockComponent,
-    WTimeComponent,
-  ],
-  entryComponents: [
-    MaterialTimePickerComponent,
-    WTimeDialogComponent,
-    WClockComponent,
-    WTimeComponent,
-  ]
+    declarations: [
+        MaterialTimePickerComponent,
+        WTimeDialogComponent,
+        WClockComponent,
+        WTimeComponent,
+    ],
+    imports: [
+        MatButtonModule,
+        MatButtonToggleModule,
+        MatDialogModule,
+        MatFormFieldModule,
+        MatIconModule,
+        MatInputModule,
+        MatSelectModule,
+        MatToolbarModule,
+        CommonModule,
+        FormsModule,
+        FlexLayoutModule,
+    ],
+    exports: [
+        MaterialTimePickerComponent,
+        WTimeDialogComponent,
+        WClockComponent,
+        WTimeComponent,
+    ]
 })
 export class MaterialTimePickerModule { }
