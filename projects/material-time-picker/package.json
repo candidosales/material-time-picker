@@ -25,8 +25,9 @@
     "@angular/platform-browser-dynamic": "^13.3.11"
   },
   "engines": {
-    "node": ">=10.9.0 <12.0.0",
-    "yarn": ">=1.9.0 <2.0.0"
+    "node": ">=14.0.0 <17.0.0",
+    "yarn": "^1.22.17",
+    "npm": "Please use Yarn instead of NPM to install dependencies. See: https://yarnpkg.com/lang/en/docs/install/"
   },
   "repository": {
     "type": "git",
@@ -36,7 +37,7 @@
     "url": "https://github.com/candidosales/material-time-picker/issues"
   },
   "dependencies": {
-    "tslib": "^2.0.0"
+    "tslib": "^2.3.1"
   },
   "homepage": "https://github.com/candidosales/material-time-picker"
 }
