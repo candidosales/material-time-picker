@@ -6,7 +6,7 @@ import {
   Output
   } from '@angular/core';
 import { ITime } from '../w-clock/w-clock.component';
-import { MatLegacyDialog as MatDialog } from '@angular/material/legacy-dialog';
+import { MatDialog } from '@angular/material/dialog';
 import { Utils } from '../utils';
 import { WTimeDialogComponent } from '../w-time-dialog/w-time-dialog.component';
 
