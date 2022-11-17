@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.7.0] - 2022-11-16
+
+### Changed
+
+- Upgrade to Angular 15 (`core`, `cli`, `cdk`, `material`);
+- Upgrade other libraries;
+
 ## [2.6.0] - 2022-11-10
 
 ### Changed
