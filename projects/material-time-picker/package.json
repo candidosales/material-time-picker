@@ -13,16 +13,16 @@
     "time picker"
   ],
   "peerDependencies": {
-    "@angular/animations": "^14.2.10",
-    "@angular/cdk": "^14.2.7",
-    "@angular/common": "^14.2.10",
-    "@angular/compiler": "^14.2.10",
-    "@angular/core": "^14.2.10",
+    "@angular/animations": "^15.0.00",
+    "@angular/cdk": "^15.0.0",
+    "@angular/common": "^15.0.00",
+    "@angular/compiler": "^15.0.00",
+    "@angular/core": "^15.0.00",
     "@angular/flex-layout": "^14.0.0-beta.41",
-    "@angular/forms": "^14.2.10",
-    "@angular/material": "^14.2.7",
-    "@angular/platform-browser": "^14.2.10",
-    "@angular/platform-browser-dynamic": "^14.2.10"
+    "@angular/forms": "^15.0.00",
+    "@angular/material": "^15.0.0",
+    "@angular/platform-browser": "^15.0.00",
+    "@angular/platform-browser-dynamic": "^15.0.00"
   },
   "engines": {
     "node": ">=14.0.0 <17.0.0",
