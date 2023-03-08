@@ -18,7 +18,7 @@ import { WTimeDialogComponent } from '../w-time-dialog/w-time-dialog.component';
 })
 export class MaterialTimePickerComponent implements OnInit {
   @Input() label = 'Hour';
-  @Input() appearance = 'legacy';
+  @Input() appearance = 'fill';
   @Input() userTime: ITime;
   @Input() color: string;
   @Input() revertLabel: string;

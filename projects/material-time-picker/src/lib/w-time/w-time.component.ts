@@ -8,12 +8,18 @@ import {
   Output
   } from '@angular/core';
 
+import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
+import { Subject } from 'rxjs';
+import {takeUntil} from 'rxjs/operators';
+
 @Component({
   selector: 'w-time',
   templateUrl: './w-time.component.html',
   styleUrls: ['./w-time.component.scss']
 })
 export class WTimeComponent implements OnInit {
+  destroyed = new Subject<void>();
+  
   @Input() userTime: ITime;
   @Output() userTimeChange: EventEmitter<ITime> = new EventEmitter();
 
@@ -29,7 +35,27 @@ export class WTimeComponent implements OnInit {
   public VIEW_MINUTES = CLOCK_TYPE.MINUTES;
   public currentView: CLOCK_TYPE = this.VIEW_HOURS;
 
-  constructor() {}
+  currentClassScreenSize: string = '';
+
+  constructor(breakpointObserver: BreakpointObserver) {
+    breakpointObserver
+    .observe([
+      Breakpoints.XSmall,
+      Breakpoints.Small,
+    ])
+    .pipe(takeUntil(this.destroyed))
+    .subscribe(result => {
+      for (const query of Object.keys(result.breakpoints)) {
+        if (result.breakpoints[query]) {
+
+          this.currentClassScreenSize = 'vertical-time';
+        }
+        else 
+          this.currentClassScreenSize = '';
+      }
+    });
+
+  }
 
   ngOnInit() {
     if (!this.userTime) {

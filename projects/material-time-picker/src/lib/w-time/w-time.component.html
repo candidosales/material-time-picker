@@ -1,21 +1,21 @@
-<div fxLayout="row" fxLayout.lt-md="column" fxLayoutAlign="center center" class="w-time" [ngClass.xs]="'vertical-time'" [ngClass.sm]="'vertical-time'">
-  <mat-toolbar fxLayout="column"  fxLayout.lt-md="row" fxLayoutAlign="center center" [color]="color" class="w-timepicker-time-container">
+<div class="d-flex flex-row flex-md-column justify-content-center align-items-center w-time" [ngClass]="currentClassScreenSize">
+  <mat-toolbar class="d-flex flex-column flex-md-row justify-content-center align-items-center w-timepicker-time-container" [color]="color">
 
       <div class="w-timepicker-selected-time">
           <span [class]="currentView === VIEW_HOURS ? 'active': ''" (click)="setCurrentView(VIEW_HOURS)">{{ formatHour(userTime.format, userTime.hour) }}:</span>
           <span [class]="currentView === VIEW_MINUTES ? 'active': ''" (click)="setCurrentView(VIEW_MINUTES)">{{ formatMinute(userTime.minute) }}</span>
       </div>
-      <div fxLayout="column" fxLayoutAlign="center center" class="w-timepicker-selected-ampm" *ngIf="userTime.format === 12">
+      <div class="d-flex flex-column justify-content-center align-items-center w-timepicker-selected-ampm" *ngIf="userTime.format === 12">
           <span (click)="setMeridien('AM')" [class]="userTime.meriden === 'AM' ? 'active' : ''">AM</span>
           <span (click)="setMeridien('PM')" [class]="userTime.meriden === 'PM' ? 'active' : ''">PM</span>
       </div>
 
   </mat-toolbar>
 
-  <div fxLayout="column" fxLayoutAlign="space-between center" class="w-time-content">
+  <div class="d-flex flex-column flex-md-row justify-content-between align-items-center w-time-content">
       <w-clock [color]="color" class="w-animation-zoom" [userTime]="userTime" (userTimeChange)="emituserTimeChange($event)" [(currentView)]="currentView" (viewChange)="setCurrentView($event)"></w-clock>
 
-      <div fxFlexAlign="end">
+      <div class="d-flex align-items-end">
           <button mat-button (click)="revert()">{{revertLabel}}</button>
           <button mat-button [color]="color" (click)="submit()">{{submitLabel}}</button>
       </div>

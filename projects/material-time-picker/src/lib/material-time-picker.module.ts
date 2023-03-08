@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { FlexLayoutModule } from '@angular/flex-layout';
+
 import { FormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
@@ -33,7 +33,6 @@ import { WTimeDialogComponent } from './w-time-dialog/w-time-dialog.component';
         MatToolbarModule,
         CommonModule,
         FormsModule,
-        FlexLayoutModule,
     ],
     exports: [
         MaterialTimePickerComponent,
