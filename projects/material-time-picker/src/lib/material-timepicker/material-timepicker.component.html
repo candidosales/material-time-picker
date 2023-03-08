@@ -1,5 +1,5 @@
 <div class="d-flex flex-row w-mat-timepicker">
-  <mat-form-field class="d-flex" class="timeContainer" appearance="{{appearance}}">
+  <mat-form-field class="d-flex {{classFormField}}" class="timeContainer" appearance="{{appearance}}">
       <mat-label>{{ label }}</mat-label>
       <input matInput class="timeInput" placeholder="Select time" id="time_Control" name="time_Control" [value]="time()" [disabled]="disabled" [readonly]="readonly">
       <mat-icon matSuffix (click)="showPicker()">access_time</mat-icon>

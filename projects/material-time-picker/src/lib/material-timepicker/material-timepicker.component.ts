@@ -3,7 +3,8 @@ import {
   EventEmitter,
   Input,
   OnInit,
-  Output
+  Output,
+  ViewEncapsulation
   } from '@angular/core';
 import { ITime } from '../w-clock/w-clock.component';
 import { MatDialog } from '@angular/material/dialog';
@@ -14,7 +15,8 @@ import { WTimeDialogComponent } from '../w-time-dialog/w-time-dialog.component';
 @Component({
   selector: 'material-timepicker',
   styleUrls: ['./material-timepicker.component.scss'],
-  templateUrl: './material-timepicker.component.html'
+  templateUrl: './material-timepicker.component.html',
+  encapsulation: ViewEncapsulation.None
 })
 export class MaterialTimePickerComponent implements OnInit {
   @Input() label = 'Hour';
@@ -25,6 +27,10 @@ export class MaterialTimePickerComponent implements OnInit {
   @Input() submitLabel: string;
   @Input() disabled: boolean;
   @Input() readonly: boolean;
+  /**
+   * Classe à mettre au form-field
+   */
+  @Input() classFormField: string;
 
   @Output() change: EventEmitter<ITime> = new EventEmitter<ITime>();
 
