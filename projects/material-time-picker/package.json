@@ -1,6 +1,6 @@
 {
-  "name": "@candidosales/material-time-picker",
-  "version": "2.7.0",
+  "name": "@passtech/material-time-picker",
+  "version": "2.7.9",
   "description": "Time Picker for Angular",
   "author": {
     "email": "candidosg@gmail.com",
@@ -18,14 +18,13 @@
     "@angular/common": "^15.0.00",
     "@angular/compiler": "^15.0.00",
     "@angular/core": "^15.0.00",
-    "@angular/flex-layout": "^14.0.0-beta.41",
     "@angular/forms": "^15.0.00",
     "@angular/material": "^15.0.0",
     "@angular/platform-browser": "^15.0.00",
     "@angular/platform-browser-dynamic": "^15.0.00"
   },
   "engines": {
-    "node": ">=14.0.0 <17.0.0",
+    "node": ">=14.0.0",
     "yarn": "^1.22.17",
     "npm": "Please use Yarn instead of NPM to install dependencies. See: https://yarnpkg.com/lang/en/docs/install/"
   },

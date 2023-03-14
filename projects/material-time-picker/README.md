@@ -63,7 +63,7 @@ export class AppComponent {
 <material-timepicker
   color="primary"
   label="Hour 2"
-  appearance="standard"
+  appearance="fill"
   [userTime]="exportTime"
   (change)="onChangeHour($event)"
   revertLabel="Remove"
