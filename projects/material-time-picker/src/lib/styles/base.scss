@@ -1,0 +1,33 @@
+.d-flex {
+    display: flex;
+}
+.flex-row {
+    flex-direction: row;
+}
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+.align-items-end {
+    align-items: end;
+}
+
+@media (min-width: 768px) {
+    .flex-md-row {
+      flex-direction: row;
+    }
+
+    .flex-md-column {
+        flex-direction: column;
+      }
+  }

@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.8.0] - 2023-03-14
+
+### Changed
+
+- Fix comments;
+- Update the styles using CSS flexbox;
+- Added utilities CSS classes for flexbox;
+
+## [2.7.9] - 2023-03-14
+
+### Changed
+
+- Removed the `@angular/flex-layout`. Thanks @passtech;
+- Improviments on `WTimeComponent`to adapt in multiples screens. Thanks @passtech;
+
+### Fixed
+
+- Fix the Node version in package.json. Thanks @passtech;
+
 ## [2.7.0] - 2022-11-16
 
 ### Changed
