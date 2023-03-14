@@ -13,7 +13,7 @@
 ### Changed
 
 - Removed the `@angular/flex-layout`. Thanks @passtech;
-- Improviments on `WTimeComponent`to adapt in multiples screens. Thanks @passtech;
+- Improvements on `WTimeComponent`to adapt in multiple screens. Thanks @passtech;
 
 ### Fixed
 
