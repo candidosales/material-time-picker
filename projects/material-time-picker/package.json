@@ -1,6 +1,6 @@
 {
-  "name": "@passtech/material-time-picker",
-  "version": "2.7.9",
+  "name": "material-time-picker",
+  "version": "2.8.0",
   "description": "Time Picker for Angular",
   "author": {
     "email": "candidosg@gmail.com",

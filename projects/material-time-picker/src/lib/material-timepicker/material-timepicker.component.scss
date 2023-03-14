@@ -1,4 +1,6 @@
 
+@import '../styles/base.scss';
+
 .time-picker-button {
     padding: 0;
     margin: 0;
@@ -6,11 +8,11 @@
 }
 
 /**
- * Attention un effet de bord peut être visible pour les autres composants
+ * Beware that an edge effect may be visible for the other components
  */
 .mat-mdc-form-field-flex {
     display: inline-flex;
-    // Valeur par défaut align-items: baseline;
+    // Default value align-items: baseline;
     align-items: center;
     box-sizing: border-box;
     width: 100%;
