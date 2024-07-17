@@ -5,6 +5,8 @@
 ### Changed
 
 - Upgrade to Angular 17 (`core`, `cli`, `cdk`, `material`);
+- Control flow;
+- Standalone components;
 
 ## [2.9.0] - 2024-07-16
 
