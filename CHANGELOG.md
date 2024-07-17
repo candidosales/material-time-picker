@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.11.0] - 2024-07-17
+
+### Changed
+
+- Upgrade to Angular 18 (`core`, `cli`, `cdk`, `material`);
+
 ## [2.10.1] - 2024-07-17
 
 ### Changed

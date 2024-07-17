@@ -1,6 +1,6 @@
 {
   "name": "@candidosales/material-time-picker",
-  "version": "2.10.1",
+  "version": "2.11.0",
   "description": "Time Picker for Angular",
   "author": {
     "email": "candidosg@gmail.com",
@@ -24,7 +24,7 @@
     "@angular/platform-browser-dynamic": "^17.0.00"
   },
   "engines": {
-    "node": ">=18.13.0",
+    "node": ">=18.19.1",
     "yarn": "^1.22.17",
     "npm": "Please use Yarn instead of NPM to install dependencies. See: https://yarnpkg.com/lang/en/docs/install/"
   },
