@@ -10,12 +10,23 @@ import { ITime } from "../w-clock/w-clock.component";
 import { MatDialog } from "@angular/material/dialog";
 import { Utils } from "../utils";
 import { WTimeDialogComponent } from "../w-time-dialog/w-time-dialog.component";
+import { MatIcon } from "@angular/material/icon";
+import { MatInput } from "@angular/material/input";
+import { MatFormField, MatLabel, MatSuffix } from "@angular/material/form-field";
 
 @Component({
-  selector: "material-timepicker",
-  styleUrls: ["./material-timepicker.component.scss"],
-  templateUrl: "./material-timepicker.component.html",
-  encapsulation: ViewEncapsulation.None,
+    selector: "material-timepicker",
+    styleUrls: ["./material-timepicker.component.scss"],
+    templateUrl: "./material-timepicker.component.html",
+    encapsulation: ViewEncapsulation.None,
+    standalone: true,
+    imports: [
+        MatFormField,
+        MatLabel,
+        MatInput,
+        MatIcon,
+        MatSuffix,
+    ],
 })
 export class MaterialTimePickerComponent implements OnInit {
   @Input() label = "Hour";

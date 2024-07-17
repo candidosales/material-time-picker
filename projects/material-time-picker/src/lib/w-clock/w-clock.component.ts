@@ -5,6 +5,9 @@ import {
   EventEmitter,
   OnChanges
 } from '@angular/core';
+import { NgStyle } from '@angular/common';
+import { MatToolbar } from '@angular/material/toolbar';
+import { MatMiniFabButton } from '@angular/material/button';
 
 // Current type to show
 export enum CLOCK_TYPE {
@@ -22,9 +25,11 @@ export interface ITime {
 }
 
 @Component({
-  selector: 'w-clock',
-  styleUrls: ['./w-clock.component.scss'],
-  templateUrl: './w-clock.component.html'
+    selector: 'w-clock',
+    styleUrls: ['./w-clock.component.scss'],
+    templateUrl: './w-clock.component.html',
+    standalone: true,
+    imports: [MatMiniFabButton, MatToolbar, NgStyle]
 })
 export class WClockComponent implements OnChanges {
   @Input() public userTime: ITime;
