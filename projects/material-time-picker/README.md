@@ -6,6 +6,7 @@ A simple time picker component using Angular Material.
 
 | Version | Angular |
 | ------- | :-----: |
+| 2.9.0   |   16    |
 | 2.7.0   |   15    |
 | 2.6.0   |   14    |
 | 2.5.0   |   13    |
@@ -60,17 +61,7 @@ export class AppComponent {
 ```
 
 ```html
-<material-timepicker
-  color="primary"
-  label="Hour 2"
-  appearance="fill"
-  [userTime]="exportTime"
-  (change)="onChangeHour($event)"
-  revertLabel="Remove"
-  submitLabel="Ok"
-  [disabled]="disabled"
-  [readonly]="readonly"
-></material-timepicker>
+<material-timepicker color="primary" label="Hour 2" appearance="fill" [userTime]="exportTime" (change)="onChangeHour($event)" revertLabel="Remove" submitLabel="Ok" [disabled]="disabled" [readonly]="readonly"></material-timepicker>
 ```
 
 ## Examples

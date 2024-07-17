@@ -1,6 +1,6 @@
 {
   "name": "@candidosales/material-time-picker",
-  "version": "2.8.0",
+  "version": "2.9.0",
   "description": "Time Picker for Angular",
   "author": {
     "email": "candidosg@gmail.com",
@@ -13,18 +13,18 @@
     "time picker"
   ],
   "peerDependencies": {
-    "@angular/animations": "^15.0.00",
-    "@angular/cdk": "^15.0.0",
-    "@angular/common": "^15.0.00",
-    "@angular/compiler": "^15.0.00",
-    "@angular/core": "^15.0.00",
-    "@angular/forms": "^15.0.00",
-    "@angular/material": "^15.0.0",
-    "@angular/platform-browser": "^15.0.00",
-    "@angular/platform-browser-dynamic": "^15.0.00"
+    "@angular/animations": "^16.0.00",
+    "@angular/cdk": "^16.0.0",
+    "@angular/common": "^16.0.00",
+    "@angular/compiler": "^16.0.00",
+    "@angular/core": "^16.0.00",
+    "@angular/forms": "^16.0.00",
+    "@angular/material": "^16.0.0",
+    "@angular/platform-browser": "^16.0.00",
+    "@angular/platform-browser-dynamic": "^16.0.00"
   },
   "engines": {
-    "node": ">=14.0.0",
+    "node": ">=16.0.0",
     "yarn": "^1.22.17",
     "npm": "Please use Yarn instead of NPM to install dependencies. See: https://yarnpkg.com/lang/en/docs/install/"
   },
@@ -36,7 +36,7 @@
     "url": "https://github.com/candidosales/material-time-picker/issues"
   },
   "dependencies": {
-    "tslib": "^2.3.1"
+    "tslib": "^2.5.0"
   },
   "homepage": "https://github.com/candidosales/material-time-picker"
 }
