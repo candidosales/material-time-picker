@@ -5,6 +5,7 @@
 ### Changed
 
 - Upgrade to Angular 18 (`core`, `cli`, `cdk`, `material`);
+- Upgrade Node version ^18.19.1;
 
 ## [2.10.1] - 2024-07-17
 
