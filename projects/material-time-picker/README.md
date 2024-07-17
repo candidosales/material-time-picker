@@ -25,31 +25,18 @@ npm i @candidosales/material-time-picker
 
 ## Quickstart
 
-Import **material-time-picker** module in Angular app.
-
-```typescript
-import { MaterialTimePickerModule } from '@candidosales/material-time-picker';
-
-(...)
-
-@NgModule({
-  (...)
-  imports: [
-    MaterialTimePickerModule
-  ]
-  (...)
-})
-```
-
 ### Usage
 
 ```typescript
 import { Component } from "@angular/core";
+import { MaterialTimePickerComponent } from "material-time-picker";
 
 @Component({
+  standalone: true,
   selector: "d-root",
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.scss"],
+  imports: [MaterialTimePickerComponent],
 })
 export class AppComponent {
   title = "demo";

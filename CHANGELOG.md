@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.10.1] - 2024-07-17
+
+### Changed
+
+- Deleted `MaterialTimePickerModule`;
+- Update README
+
 ## [2.10.0] - 2024-07-17
 
 ### Changed
