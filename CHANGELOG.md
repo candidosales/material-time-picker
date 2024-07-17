@@ -7,12 +7,14 @@
 - Upgrade to Angular 17 (`core`, `cli`, `cdk`, `material`);
 - Control flow;
 - Standalone components;
+- Upgrade Node version ^18.13.0;
 
 ## [2.9.0] - 2024-07-16
 
 ### Changed
 
 - Upgrade to Angular 16 (`core`, `cli`, `cdk`, `material`);
+- Upgrade Node version ^16.14.0;
 
 ## [2.8.0] - 2023-03-14
 
