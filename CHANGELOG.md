@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.9.0] - 2024-07-16
+
+### Changed
+
+- Upgrade to Angular 16 (`core`, `cli`, `cdk`, `material`);
+
 ## [2.8.0] - 2023-03-14
 
 ### Changed
