@@ -1,4 +1,4 @@
-import { CLOCK_TYPE, ITime } from '../w-clock/w-clock.component';
+import { CLOCK_TYPE, ITime, WClockComponent } from '../w-clock/w-clock.component';
 import { Utils } from '../utils';
 import {
   Component,
@@ -11,11 +11,15 @@ import {
 import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
 import { Subject } from 'rxjs';
 import {takeUntil} from 'rxjs/operators';
+import { MatToolbar } from '@angular/material/toolbar';
+import { NgClass } from '@angular/common';
 
 @Component({
-  selector: 'w-time',
-  templateUrl: './w-time.component.html',
-  styleUrls: ['./w-time.component.scss']
+    selector: 'w-time',
+    templateUrl: './w-time.component.html',
+    styleUrls: ['./w-time.component.scss'],
+    standalone: true,
+    imports: [NgClass, MatToolbar, WClockComponent]
 })
 export class WTimeComponent implements OnInit {
   destroyed = new Subject<void>();
