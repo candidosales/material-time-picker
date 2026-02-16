@@ -6,6 +6,7 @@ A simple time picker component using Angular Material.
 
 | Version | Angular |
 | ------- | :-----: |
+| 2.14.0  |   21    |
 | 2.13.0  |   20    |
 | 2.12.0  |   19    |
 | 2.11.0  |   18    |

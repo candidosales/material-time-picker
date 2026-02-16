@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.14.0] - 2026-02-16
+
+### Changed
+
+- Upgrade to Angular 21 (`core`, `cli`, `cdk`, `material`);
+
 ## [2.13.0] - 2026-02-16
 
 ### Changed
