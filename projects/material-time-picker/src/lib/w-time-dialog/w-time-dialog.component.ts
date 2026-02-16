@@ -7,7 +7,6 @@ import { WTimeComponent } from '../w-time/w-time.component';
 @Component({
     styleUrls: ['./w-time-dialog.component.scss'],
     templateUrl: './w-time-dialog.component.html',
-    standalone: true,
     imports: [MatDialogContent, WTimeComponent]
 })
 export class WTimeDialogComponent {
