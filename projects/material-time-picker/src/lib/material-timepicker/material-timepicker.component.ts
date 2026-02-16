@@ -19,14 +19,13 @@ import { MatFormField, MatLabel, MatSuffix } from "@angular/material/form-field"
     styleUrls: ["./material-timepicker.component.scss"],
     templateUrl: "./material-timepicker.component.html",
     encapsulation: ViewEncapsulation.None,
-    standalone: true,
     imports: [
         MatFormField,
         MatLabel,
         MatInput,
         MatIcon,
         MatSuffix,
-    ],
+    ]
 })
 export class MaterialTimePickerComponent implements OnInit {
   @Input() label = "Hour";

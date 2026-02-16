@@ -18,7 +18,6 @@ import { NgClass } from '@angular/common';
     selector: 'w-time',
     templateUrl: './w-time.component.html',
     styleUrls: ['./w-time.component.scss'],
-    standalone: true,
     imports: [NgClass, MatToolbar, WClockComponent]
 })
 export class WTimeComponent implements OnInit {

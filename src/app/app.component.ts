@@ -6,7 +6,6 @@ import { MaterialTimePickerComponent, WTimeComponent } from 'material-time-picke
     selector: 'd-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],
-    standalone: true,
     imports: [MaterialTimePickerComponent, MatCard, MatCardContent, WTimeComponent]
 })
 export class AppComponent {

@@ -28,7 +28,6 @@ export interface ITime {
     selector: 'w-clock',
     styleUrls: ['./w-clock.component.scss'],
     templateUrl: './w-clock.component.html',
-    standalone: true,
     imports: [MatMiniFabButton, MatToolbar, NgStyle]
 })
 export class WClockComponent implements OnChanges {
