@@ -10,7 +10,7 @@
 
 ### Changed
 
-- Upgrade to Angular 19 (`core`, `cli`, `material`);
+- Upgrade to Angular 19 (`core`, `cli`);
 - Upgrade Node version ^22.0.0;
 
 ## [2.11.0] - 2024-07-17
