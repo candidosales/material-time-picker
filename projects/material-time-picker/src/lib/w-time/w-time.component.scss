@@ -1,4 +1,4 @@
-@import '../styles/base.scss';
+@use '../styles/base.scss';
 
 :host {
   display: block;
@@ -30,7 +30,7 @@
     w-clock {
       padding: 12px 0;
       height: calc(100% - 58px);
-    }  
+    }
   }
 
   &.vertical-time {
